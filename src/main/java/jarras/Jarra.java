@@ -23,5 +23,16 @@ public class Jarra {
         return contenido;
     }
 
+    // SETTERS (ALT+INSERT)
+    public void llena(double contenido) {
+        this.contenido = capacidad;
+    }
+
+    public void vacia(double contenido) {
+        this.contenido = 0;
+    }
+
+
+
 
 }
