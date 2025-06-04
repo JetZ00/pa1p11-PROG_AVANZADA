@@ -3,7 +3,7 @@ package jarras;
 public class Jarra {
 
     private final double capacidad;
-    private double contenido;
+    private double  contenido;
 
     // CONSTRUCTOR
     public Jarra(int capacidad){
@@ -13,5 +13,15 @@ public class Jarra {
         this.capacidad = capacidad;
         this.contenido = 0;
     }
+
+    // GETTERS (ALT+INSERT)
+    public double getCapacidad() {
+        return capacidad;
+    }
+
+    public double getContenido() {
+        return contenido;
+    }
+
 
 }

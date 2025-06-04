@@ -1,0 +1,17 @@
+[33mcommit 57ec322fcb8803ad7651d5b33d0166f8dabac97a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;32mdevelop[m[33m)[m
+Author: Manuel Mera <manuel.mera@uma.es>
+Date:   Wed Jun 4 15:01:30 2025 +0200
+
+    constructor added to Jarra class FIXED
+
+[33mcommit 4ecc52796dafb5a25e24682aeb77026dd7dcb948[m
+Author: Manuel Mera <manuel.mera@uma.es>
+Date:   Wed Jun 4 13:53:15 2025 +0200
+
+    constructor added to Jarra class
+
+[33mcommit b8833e49d7c077ac540941a2f0bf2de985241d83[m
+Author: Manuel Mera <manuel.mera@uma.es>
+Date:   Wed Jun 4 13:31:05 2025 +0200
+
+    pom.xml updated and sync
