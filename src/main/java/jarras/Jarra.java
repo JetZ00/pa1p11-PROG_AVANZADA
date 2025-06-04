@@ -2,8 +2,8 @@ package jarras;
 
 public class Jarra {
 
-    private final double capacidad;
-    private double  contenido;
+    final int capacidad;
+    int  contenido;
 
     // CONSTRUCTOR
     public Jarra(int capacidad){
@@ -15,11 +15,11 @@ public class Jarra {
     }
 
     // GETTERS (ALT+INSERT)
-    public double getCapacidad() {
+    public int capacidad() {
         return capacidad;
     }
 
-    public double getContenido() {
+    public int contenido() {
         return contenido;
     }
 
@@ -45,15 +45,16 @@ public class Jarra {
                                              o bien, el maximo que puede traspasar OTRA
          */
 
-        double espacioDisponible = this.capacidad - this.contenido;
-        double cantidadATransvasar = Math.min(espacioDisponible,otra.contenido);
+        int espacioDisponible = this.capacidad - this.contenido;
+        int cantidadATransvasar = Math.min(espacioDisponible,otra.contenido);
 
         this.contenido += cantidadATransvasar;
         otra.contenido -= cantidadATransvasar;
     }
 
-
-
-
+    @Override
+    public String toString(){
+        return ("J("+this.capacidad+","+this.contenido+")");
+    }
 
 }
