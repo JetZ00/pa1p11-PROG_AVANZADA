@@ -2,8 +2,8 @@ package jarras;
 
 public class Jarra {
 
-    final int capacidad;
-    int  contenido;
+    private final int capacidad;
+    private int  contenido;
 
     // CONSTRUCTOR
     public Jarra(int capacidad){
